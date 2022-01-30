@@ -1,0 +1,7 @@
+node ('windows7') {
+    stage('Start a Flask app'){
+        bat 'dir'
+        bat 'dir ..'
+        bat 'python ./app/main.py'
+    }
+}
